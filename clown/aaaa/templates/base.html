@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/game_css/style.css' %}">
+    <title>The game</title>
+</head>
+<body>
+    <div id="start_game_page">
+        <div id="start_game_menu">
+            <span>Choose your gun</span>
+            <div class="choose_gun">
+                <img id="start_gunpic" src="guns/sniper.png" alt="">
+                <img id="start_gunpic" src="guns/msmc.png" alt="">
+            <div class="choose_scope">
+                <img id="start_aimpic" src="scope.png" alt="">
+                <img id="start_aimpic" src="aim/aaim.png" alt="">
+                <img id="start_aimpic" src="aim/3l.png" alt="">
+            </div>
+            <button id="start_game">
+                Start
+            </button>
+        </div>
+    </div>
+</body>
+</html>
